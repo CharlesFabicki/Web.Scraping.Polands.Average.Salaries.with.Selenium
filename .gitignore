@@ -4,6 +4,9 @@ __pycache__/
 # Ignore the virtual environment directory (if you're using one)
 venv/
 
+# Local configuration files
+*.idea/
+
 # Ignore the Edge WebDriver executable (assuming it's in the project directory)
 msedgedriver.exe
 
