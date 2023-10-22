@@ -19,11 +19,10 @@ This repository contains a Python script for web scraping using the Selenium lib
 Make sure you have the Edge webdriver executable in your PATH. You can download it from the official Edge WebDriver page: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 Update the url variable in the script to the desired URL.
 
-1. Run the script using the following command:
-
-2. Open bash
-
-3. use: python main.py
+ Run the script using the following command:
+ ```
+ python web_scraping_script.py
+ ```
 
 The script will open a browser window, navigate to the specified URL, and extract the required data.
 The extracted data will be saved to a CSV file named zus_data.csv in the same directory as the script.
